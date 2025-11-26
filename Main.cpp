@@ -33,6 +33,8 @@ int main()
 	list1->delete_at(0);
 	list1->print_list();
 
+	// Create a function that unallocates all memory held by a LinkedList object
+	// Call that function here
 	_CrtDumpMemoryLeaks();
 }
 
